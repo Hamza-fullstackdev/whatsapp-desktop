@@ -5,9 +5,9 @@ import { MdLock } from "react-icons/md";
 
 const MainSidebar = () => {
   return (
-    <main className='relative h-screen overflow-y-auto w-[350px] border border-gray-300 rounded-l-md'>
+    <main className='relative h-screen overflow-y-auto w-[350px] bg-[#FCFCFC] border border-gray-300 rounded-l-md'>
       <div className='p-2'>
-        <div className='p-2 w-full sticky top-0 z-10 py-1 bg-white'>
+        <div className='p-2 w-full sticky top-0 z-10 py-1 bg-[#FCFCFC]'>
           <div className='flex justify-between items-center'>
             <h2 className='text-xl font-semibold'>Chats</h2>
             <div className='flex items-center gap-x-2'>
