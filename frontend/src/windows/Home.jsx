@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 
 const Home = () => {
   return (
-    <main className='flex'>
+    <main className='flex h-screen w-full overflow-y-auto'>
       <Sidebar />
       <MainSidebar />
       <MainWindow />
